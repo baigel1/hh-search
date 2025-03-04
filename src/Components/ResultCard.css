@@ -1,0 +1,57 @@
+.result-container {
+  border: 1px solid black; /* border-gray-300 */
+  padding: 8px; /* py-8 in Tailwind */
+  color: #1c1917; /* text-stone-900 */
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  scroll-margin-top: 6rem; /* scroll-mt-6 */
+}
+.truncate-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limits to approx. 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 100ch; /* Approximate 100 characters width */
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.result-container p {
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.result-container .italic {
+  font-style: italic;
+}
+
+.result-container .font-light {
+  font-weight: 300;
+}
+
+.result-container .font-semibold {
+  font-weight: 600;
+}
+
+.result-container .not-italic {
+  font-style: normal;
+}
+
+.result-container .flex {
+  display: flex;
+}
+
+.result-container .gap-1 {
+  gap: 0.25rem;
+}
+
+/* Link styles if you decide to use them */
+.result-container a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2563eb; /* text-blue-600 */
+}
+
+.result-container a:hover {
+  text-decoration: underline;
+}

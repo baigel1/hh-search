@@ -1,0 +1,33 @@
+.source-card {
+  padding: 1rem;
+  border: 1px solid #e5e7eb; /* Tailwind border-gray-200 */
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f1f5f9; /* Tailwind bg-slate-100 */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 16rem; /* 64px */
+  font-size: 0.875rem;
+  color: #525252; /* Tailwind text-neutral */
+  overflow-x: auto;
+  cursor: pointer;
+}
+
+.source-card:hover {
+  border-color: #6366f1; /* Tailwind hover:border-indigo-500 */
+}
+
+.source-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.source-card-link:hover {
+  color: #6366f1; /* Tailwind hover:text-indigo-500 */
+}
+
+.no-link {
+  font-size: 0.75rem; /* Tailwind text-xs */
+}
